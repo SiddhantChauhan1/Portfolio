@@ -1,3 +1,7 @@
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+import colorSharp from "../assets/img/color-sharp.png"
+
 import python from "../assets/img/langs/python.svg";
 import cpp from "../assets/img/langs/cpp.svg";
 import c from "../assets/img/langs/c.svg";
@@ -17,13 +21,6 @@ import django from "../assets/img/langs/django.svg";
 
 import mongodb from "../assets/img/langs/mongodb.svg";
 import sql from "../assets/img/langs/sql.svg";
-
-
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
-import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
   const responsive = {
@@ -52,8 +49,8 @@ export const Skills = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>Skills</h2>
-              <p></p>
+            <h1>TECHNICAL SKILLS</h1>
+              <br /><br /><br />
               <h2>Languages</h2>
               <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                 <div className="item">
@@ -77,8 +74,7 @@ export const Skills = () => {
                   <h5>C</h5>
                 </div>
               </Carousel>
-            </div>
-            <div className="skill-bx wow zoomIn">
+              <br /><br /><br />
               <h2>Front end</h2>
               <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                 <div className="item">
@@ -106,8 +102,7 @@ export const Skills = () => {
                   <h5>Tailwind CSS</h5>
                 </div>
               </Carousel>
-            </div>
-            <div className="skill-bx wow zoomIn">
+              <br /><br /><br />
               <h2>Backend & Database</h2>
               <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                 <div className="item">

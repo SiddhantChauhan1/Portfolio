@@ -1,11 +1,14 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import techxtreek from "../assets/img/projects/techxtreek.png";
-import momentify from "../assets/img/projects/techxtreek.png";
-import mailfilter from "../assets/img/projects/techxtreek.png";
-import bookmart from "../assets/img/projects/techxtreek.png";
-import jobportal from "../assets/img/projects/techxtreek.png";
-import weather from "../assets/img/projects/techxtreek.png";
+
+import techxtreek from "../assets/img/projects/Techxtreek2.jpeg";
+import momentify from "../assets/img/projects/Techxtreek2.jpeg";
+import mailfilter from "../assets/img/projects/Techxtreek2.jpeg";
+import bookmart from "../assets/img/projects/bookmart.png";
+import jobportal from "../assets/img/projects/JobPortal.png";
+import weather from "../assets/img/projects/Weather.png";
+import grocery from "../assets/img/projects/Grocery.png";
+
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -16,26 +19,26 @@ export const Projects = () => {
     {
       title: "Techxtreek",
       description: "Microblogging site, similar to Twitter and Threads",
-      langs: "React | Node | Express | MongoDB",
+      langs: "Next | React | Node | MongoDB",
       imgUrl: techxtreek,
-    },
-    {
-      title: "Momentify",
-      description: "Social Media Application",
-      langs: "Vue.js | Python [Django]",
-      imgUrl: momentify,
-    },
-    {
-      title: "BookMart",
-      description: "e-Commerce Platform for a bookstore",
-      langs: "React | Node | Express | MongoDB",
-      imgUrl: bookmart,
     },
     {
       title: "Job Listing Portal",
       description: "Platform to list and seek jobs",
       langs: "React | Node | Express | MongoDB",
       imgUrl: jobportal,
+    },
+    {
+      title: "Grocery Store",
+      description: "Website to view and order groceries",
+      langs: "React | Node | Express | MongoDB",
+      imgUrl: grocery,
+    },
+    {
+      title: "Momentify",
+      description: "Social Media Application",
+      langs: "Vue.js | Python [Django]",
+      imgUrl: momentify,
     },
     {
       title: "Mail Spam Detection System",
@@ -49,6 +52,18 @@ export const Projects = () => {
       langs: "React JS",
       imgUrl: weather,
     },
+    {
+      title: "BookMart",
+      description: "e-Commerce Platform for a bookstore",
+      langs: "React | Node | Express | MongoDB",
+      imgUrl: bookmart,
+    },
+    {
+      title: "Workout Tracker",
+      description: "App to manage and track workouts and health",
+      langs: "React | Node | Express | MongoDB",
+      imgUrl: techxtreek,
+    }
   ];
 
   return (
@@ -59,9 +74,9 @@ export const Projects = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div >
-                <h2>Projects</h2>
+                <h2>PROJECTS</h2>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                  <Nav variant="pills" className="nav-pills mb-2 justify-content-center align-items-center" id="pills-tab">
                   </Nav>
                   <Tab.Content id="slideInUp" >
                     <Tab.Pane eventKey="first">
