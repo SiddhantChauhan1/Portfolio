@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Backend Developer", "Frontend Developer", "Full Stack Developer" ];
+  const toRotate = ["Full Stack Developer", "Backend Developer", "Frontend Developer", "Competitive Coder" ];
   const period = 200;
 
   useEffect(() => {
@@ -58,7 +58,10 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Siddhant`}<br /> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                <button onClick={() => document.getElementById('skills').scrollIntoView({ behavior: 'smooth' })}>
+  View More <ArrowRightCircle size={25} />
+</button>
+
               </div>}
             </TrackVisibility>
           </Col>
