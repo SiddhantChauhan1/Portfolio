@@ -94,9 +94,9 @@ nav.navbar {
   transition:  0.32s ease-in-out;
 }
 nav.navbar.scrolled {
-  padding: 13px 0;
+  padding: 12px 0;
   background-color: #121212;
-  opacity: 0.95;
+  opacity: 0.97;
 }
 
 nav.navbar a.navbar-brand {
@@ -248,7 +248,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 110vh;
+  min-height: 105vh;
 }
 .banner h1 {
   font-size: 7vh;
@@ -301,9 +301,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
-  /***********************************************************************/
- /*************************** Skills Css ********************************/
-/***********************************************************************/
+  /************************************************************************/
+ /**************************** Skills Css ********************************/
+/************************************************************************/
 
 .skill {
   padding: 0 0 50px 0;
@@ -315,7 +315,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 64px;
   text-align: center;
   padding: 2vw;
-  margin-top: -60px;
+  /* margin-top: 10vh; */
 }
 
 .skill h2 {
@@ -335,7 +335,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill-items {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 1vw;
+  gap: 1vh;
   width: 100%;
   margin: 0 auto;
   position: relative;
@@ -605,12 +605,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /*******************************************************************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  padding: 60px 0 150px 0;
+  padding: 60px 0 130px 0;
 }
 
 .contact h1 {
   text-align: center;
-	font-size: 45px;
+	font-size: 50px;
 	font-weight: 700;
   margin-top: 8vh;
   margin-bottom: 6vh;
@@ -621,7 +621,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   grid-template-columns: repeat(2, max-content);
   justify-content: center;
   column-gap: 8vw;
-  padding: 1.5vh;
+  padding: 1.7vh;
 }
 
 .contact-card {

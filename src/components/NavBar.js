@@ -51,7 +51,7 @@ export const NavBar = () => {
                 <a href="https://github.com/SiddhantChauhan1/"><img src={navIcon2} alt="" /></a>
                 <a href="https://leetcode.com/u/siddhantchauhan/"><img src={navIcon3} alt="" /></a>
               </div> */}
-              <HashLink to='#connect'>
+              <HashLink to='#contact'>
                 <button className="vvd"><span>Contact</span></button>
               </HashLink>
             </span>

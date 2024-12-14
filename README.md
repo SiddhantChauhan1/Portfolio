@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+## Welcome to my Portfolio!
 
-=======
->>>>>>> e62fd52 (update 3)
+### Check live deployed version:
+https://portfolio-tau-azure-10.vercel.app/
+
+### Thanks for visiting!
