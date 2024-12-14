@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 
-import techxtreek from "../assets/img/projects/Techxtreek2.jpeg";
+import techxtreek from "../assets/img/projects/techxtreek.png";
 import momentify from "../assets/img/projects/Techxtreek2.jpeg";
 import mailfilter from "../assets/img/projects/Techxtreek2.jpeg";
 import bookmart from "../assets/img/projects/bookmart.png";
@@ -41,7 +41,7 @@ export const Projects = () => {
       imgUrl: momentify,
     },
     {
-      title: "Mail Spam Detection System",
+      title: "Spam Dectection System",
       description: "Filters Spam mail using AI/ML",
       langs: "Python",
       imgUrl: mailfilter,
@@ -100,7 +100,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt="Background decorative pattern"></img>
     </section>
   )
 }
