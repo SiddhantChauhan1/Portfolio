@@ -1,6 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-
+import "./Projects.css"
 import techxtreek from "../assets/img/projects/techxtreek.png";
 import momentify from "../assets/img/projects/Techxtreek2.jpeg";
 import mailfilter from "../assets/img/projects/Techxtreek2.jpeg";

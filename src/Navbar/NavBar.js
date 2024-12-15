@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { HashLink } from 'react-router-hash-link';
 import { BrowserRouter as Router } from "react-router-dom";
-
+import "./NavBar.css"
 import logo from '../assets/img/logo2.png';
 
 export const NavBar = () => {

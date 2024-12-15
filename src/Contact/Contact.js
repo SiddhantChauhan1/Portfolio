@@ -2,6 +2,7 @@ import { useState, useRef } from "react";
 import emailjs from '@emailjs/browser';
 import mailicon from "../assets/img/mailicon.svg"
 import linkedin from "../assets/img/linkedinblack.svg"
+import './Contact.css';
 
 export const Contact = () => {
     const form = useRef();

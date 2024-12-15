@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-
+import "./Footer.css";
 import logo from "../assets/img/logo2.png";
 import linkedInIcon from "../assets/img/linkedin.svg";
 import githubIcon from "../assets/img/github.svg"; // Assuming a GitHub icon is available
