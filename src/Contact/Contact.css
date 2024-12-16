@@ -6,10 +6,10 @@
   
   .contact h1 {
     text-align: center;
-      font-size: 50px;
-      font-weight: 700;
+    font-size: 52px;
+    font-weight: 700;
     margin-top: 8vh;
-    margin-bottom: 6vh;
+    margin-bottom: 4vh;
   }
   
   .contact-section {
@@ -28,8 +28,8 @@
     border-radius: 13px;
     cursor: pointer;
     transition: 0.3s;
-    margin-top: 4vw;
-    margin-bottom: 7vh;
+    margin-top: 3vw;
+    margin-bottom: 3vh;
   }
   
   .contact-card:hover {
@@ -40,10 +40,6 @@
   
   .contact-card a {
     text-decoration: none;
-    color: inherit;
-  }
-  
-  .contact-card a:hover {
     color: inherit;
   }
   
@@ -58,6 +54,7 @@
   
   .contactformlabel {
     margin: 1vh;
+    font-size: large;
   } 
   
   .contact form input, .contact form textarea {
@@ -74,7 +71,7 @@
     transition: 0.3s ease-in-out;
   }
   .contact form textarea {
-    height: 30vh;
+    height: 27vh;
     resize: none;
   }
   
