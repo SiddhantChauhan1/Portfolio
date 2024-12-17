@@ -46,11 +46,6 @@ export const NavBar = () => {
               <Nav.Link href="#profiles" className={activeLink === 'profiles' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('profiles')}>Profiles</Nav.Link>
             </Nav>
             <span className="navbar-text">
-              {/* <div className="social-icon">
-                <a href="https://www.linkedin.com/in/siddhantc01/"><img src={navIcon1} alt="" /></a>
-                <a href="https://github.com/SiddhantChauhan1/"><img src={navIcon2} alt="" /></a>
-                <a href="https://leetcode.com/u/siddhantchauhan/"><img src={navIcon3} alt="" /></a>
-              </div> */}
               <HashLink to='#contact'>
                 <button className="vvd"><span>Contact</span></button>
               </HashLink>
